@@ -1,3 +1,19 @@
+/****************************************************************
+protocol.h for use with Raspi_UPS_2_Base.ino
+
+Megatec UPS emulation for use with NUT UPS software on Raspberry Pi
+
+Mike Waldron
+May 12, 2017
+
+https://github.com/xm381/Raspberry-Pi-UPS
+
+This code is beerware; if you see me at the local, and you've found our code helpful, please
+buy me a round!
+
+Distributed as-is; no warranty is given.
+****************************************************************/
+
 /*
 
 Megatec Protocol information
