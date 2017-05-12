@@ -1,5 +1,5 @@
 # Raspberry-Pi-UPS
-Arduino based UPS that emulates a Megatech -  For use with NUT "Network UPS Tools" running on Raspberry Pi
+Arduino based UPS that emulates a Megatec -  For use with NUT "Network UPS Tools" running on Raspberry Pi
 
 Utilizing mostly Adafruit products, this simple Arduino-based UPS works with NUT running on the Raspberry Pi.
 
