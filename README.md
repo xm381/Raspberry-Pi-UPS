@@ -3,6 +3,7 @@ Arduino based UPS that emulates a Megatech -  For use with NUT "Network UPS Too
 
 Utilizing mostly Adafruit products, this simple Arduino-based UPS works with NUT running on the Raspberry Pi.
 
+This UPS can supply a peak power of slightly more than 1000ma, which is adequate for a headless Raspberry Pi 3. It will drive a RP3 with the Foundations 7" touchscreen if processor utilization is low. Power limitations are most evident when running on a low battery. With a low battery, an over-current surge can cause the power converter chip to abruptly shutdown.  
 
 These are VERY basic NUT install instructions, please review https://melgrubb.com/2016/12/11/rphs-v2-ups/ for comprehensive instructions.
 
