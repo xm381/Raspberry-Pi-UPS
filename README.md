@@ -49,7 +49,7 @@ Edit upsd.users:
 
 	sudo nano /etc/nut/upsd.users
 
-Add this:
+Add this (with passwords of your choosing):
 
 		[upsmon]
         		password  = raspberry
@@ -63,7 +63,7 @@ Edit upsmon.conf:
 
 	sudo nano /etc/nut/upsmon.conf
 
-Add to MONITOR section:
+Add to MONITOR section (with your password, not raspberry):
 
 		MONITOR RPUPS@localhost 1 upsmon raspberry master
 
@@ -78,8 +78,16 @@ Querry UPS Status:
 	upsc RPUPS
 
 
+
+
 NUT webpage:
   http://networkupstools.org
+  
+NUT Blaser Serial Driver:
+  http://networkupstools.org/docs/man/blazer_ser.html
+  
+Megatec protocol:
+  http://networkupstools.org/protocols/megatec.html
   
 Very nice writeup that I used to install NUT:
   https://melgrubb.com/2016/12/11/rphs-v2-ups/
