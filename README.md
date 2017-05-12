@@ -81,7 +81,7 @@ Querry UPS Status:
 NUT webpage:
   http://networkupstools.org
   
-NUT Blaser Serial Driver:
+NUT Blazer Serial Driver:
   http://networkupstools.org/docs/man/blazer_ser.html
   
 Megatec protocol:
