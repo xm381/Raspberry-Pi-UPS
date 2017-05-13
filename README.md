@@ -10,6 +10,10 @@ Install NUT:
 
 	sudo apt-get install nut
 
+Add user "nut" to "dialout" group to enanable access to USB serial port:
+
+	sudo usermod -a -G dialout nut
+
 Edit ups.conf:
 
 	sudo nano /etc/nut/ups.conf
