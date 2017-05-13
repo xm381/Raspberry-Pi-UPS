@@ -71,10 +71,9 @@ Customize NOTIFYFLAG section (un-comment the messages you want to see):
 
 reboot
 
-Querry UPS Status:
+Querry UPS Status to verify communications:
 
 	upsc RPUPS
-
 
 
 
