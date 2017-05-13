@@ -1,0 +1,9 @@
+The 0.47mf "reset capacitor" stops the Arduino from being reset when the USB port is fist queried.
+
+Without the capacitor, the Raspberry Pi would reset the Arduino on boot, which would kill the power.
+
+This also blocks the Arduino IDE from resting the Arduino to upload sketches.
+
+Socketing the Arduino, so that it can be removed for programming, is one option.
+
+There are also ways to hit the Arduino reset button and then upload the sketch, you'll need to Goolge for instructions.
