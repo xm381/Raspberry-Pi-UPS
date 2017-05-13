@@ -10,7 +10,7 @@ Install NUT:
 
 	sudo apt-get install nut
 
-Add user "nut" to "dialout" group to enanable access to USB serial port:
+Add user "nut" to "dialout" group to enable access to USB serial port:
 
 	sudo usermod -a -G dialout nut
 
