@@ -1,5 +1,5 @@
 # Raspberry-Pi-UPS
-Utilizing mostly Adafruit products, this Arduino based UPS emulates the very common Megatec Q protocol over a USB serial connection - For use with NUT "Network UPS Tools" running on Raspberry Pi, Beagle Bone, etc.
+Utilizing mostly Adafruit products, this UPS is based on a PowerBoost 1000c controled by an Arduino that emulates the very common Megatec Q protocol over a USB serial connection - For use with NUT "Network UPS Tools" running on Raspberry Pi, Beagle Bone, etc.
 
 This UPS can supply a peak power of slightly more than 1000ma, which is adequate for a headless Raspberry Pi 3. It will drive a RP3 with the Foundations 7" touchscreen if processor utilization is low. Power limitations are most evident when running on a low battery. With a low battery, an over-current surge can cause the power converter chip to abruptly shutdown.  
 
